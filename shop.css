@@ -1,0 +1,42 @@
+.con{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: grid;
+    gap: 50px;
+    margin: 50px;
+}
+
+.cont{
+    display: flex;
+    gap: 50px;
+}
+
+.car{
+    height: 50vh;
+    width: 50vh;
+    background-color: powderblue;
+    border-radius: 15px;
+    border: 4px dashed rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(61, 153, 245);
+}
+
+body{
+    background-color: rgb(255, 255, 145);
+}
+
+h1{
+    font-family: 'Comic Relief', cursive;
+    color: rgb(0, 48, 70);
+    align-self: center;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

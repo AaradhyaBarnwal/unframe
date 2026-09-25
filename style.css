@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(255, 255, 145);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(12, 55, 61);
+}
+
+.text{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: "DynaPuff";
+    font-size: 5.5rem;
+    color: powderblue;
+    text-shadow: 2px 2px rgb(11, 95, 106);
+}
+
+.btn{
+    background-color: rgb(2, 54, 69);
+    color: rgb(225, 253, 133);
+    border: none;
+    padding: 10px 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Requirements{
+    background-color: powderblue;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;   
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.card{
+    height: 80vh;
+    width: 50vh;
+    border-radius: 15px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(248, 255, 125);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.cardy{
+    height: 30vh;
+    width: 50vh;
+    border-radius: 15px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(248, 255, 125);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    margin: 50px;
+
+}
+
+.cardy2{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 15px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(248, 255, 125);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    margin: 50px;
+}
+
+h2{
+   font-family: "DynaPuff";
+   color: rgb(12, 55, 61);
+   display: flex;
+   align-items: baseline;
+   margin-top: 40px;
+}
+
+a {
+   color: rgb(12, 55, 61);
+   text-decoration: none;
+}
